@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+body {
+    background-color: #fcf8dd;
+    font-family: 'Roboto', sans-serif;
+}
+.logo {
+    width: 187px;
+    height: 141px;
+}
+.header_contacts {
+    display: flex;
+    justify-content: space-between;
+}
+.header_contacts_contact-info {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
