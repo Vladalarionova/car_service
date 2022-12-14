@@ -9,45 +9,92 @@
     <link rel="stylesheet" href="normalize.css"/>
 </head>
 <body>
-    <header>
-        <div>
-            <img class="logo" src="./Images/logo.png" alt="Logo"/>
-        </div>
+<div class="outer-wrapper">
+    <div class="inner-wrapper">
+        <header>
+            <div class="outer-container">
+                <div>
+                    <img class="logo" src="./Images/logo.png" alt="Logo"/>
+                </div>
 
-        <div class="header_contacts">
-            <div class="header_contacts_description">
-                <span>Ремонт автомобилей любой сложности</span>
+                <div class="inner-container">
+                    <div class="header_contacts">
+
+                        <div class="header_contacts_description">
+                            <span>Ремонт автомобилей любой сложности</span>
+                        </div>
+
+                        <div class="header-menu">
+
+                            <div class="header_contacts_contact-info">
+                                <div class="number image-style">
+                                    <img class="phone-image icon" src="Images/phone.svg" alt="Phone icon"/>
+                                    <div class="phone-number header-item">
+                                        <span>Телефон:</span>
+                                        <a class="phone contact-style" href="tel:+79015192136">+7 (901) 519-21-36</a>
+                                    </div>
+                                </div>
+
+                                <div class="address-info image-style item-margin">
+                                    <img class="clock-image icon" src="Images/clock.svg" alt="Clock icon"/>
+                                    <div class="address header-item">
+                                        <span>Адрес:</span>
+                                        <span class="address contact-style">г. Москва, Каширское шоссе д. 17, к.5, стр. 2</span>
+                                    </div>
+                                </div>
+
+                                <div class="working-time image-style item-margin">
+                                    <img class="working-time-image icon" src="Images/address.svg" alt="Location icon"/>
+                                    <div class="working-hours header-item">
+                                        <span>Часы работы:</span>
+                                        <span class="time contact-style">10:00-20:00</span>
+                                        <span class="days">Пн-вс</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="header_nav-menu">
+                                <a class="nav-item" href="#">Меню</a>
+                                <a class="nav-item" href="#">Главная</a>
+                                <a class="nav-item" href="#">Об автосервисе</a>
+                                <a class="nav-item" href="#">Контакты</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+        </header>
 
-            <div class="header_contacts_contact-info">
-                <ul>
-                    <div class="phone-number">
-                        <li>Телефон:<a href="tel:+79015192136">+7 (901) 519-21-36</a></li>
-                    </div>
-                    <div class="address">
-                        <li>Адрес</li>
-                        <li>г. Москва, Коломенская наб., д. 13</li>
-                    </div>
-                    <div class="address">
-                        <li>Часы работы:</li>
-                        <li>10:00-20:00</li>
-                        <li>Пн-вс</li>
-                    </div>
-                </ul>
-            </div>
-        </div>
+        <main>
+            <section class="about">
+                <h2 class="about_header">Об автосервисе</h2>
+                <div class="main-description">
+                    <span>На протяжении 6 лет компания «Автомастер» занимается поставками автозапчастей ГАЗ, УАЗ, ПАЗ, ВАЗ, Камаз.
+        И мы специализируемся на продвижение своего
+        бренда ТМ PRAVT
+        – сертифицированная торговая
+        марка российской компании.
+        Наша география расширяется по всей России и ближнему зарубежью,
+        мы стали узнаваемые.
 
-        <div class="header_nav-menu">
-            <ul>
-                <li><a href="#">Меню</a></li>
-                <li><a href="#">Главная</a></li>
-                <li><a href="#">Об автосервисе</a></li>
-                <li><a href="#">Контакты</a></li>
-            </ul>
-        </div>
+        На сегодняшний день ассортимент нашей продукции более 600 позиций.
+        С каждым годом прогресс увеличения ассортимента составляет не менее чем
+        на 35%.
+        Производственные мощности, партнеры компании расположены на территории КНР.
 
-    </header>
-
-<script src="script.js"
+        Подробнее
+        Гарантируем качество
+        Одной из основных задач нашей компании является выпуск качественной, надежной
+        и конкурентоспособной продукции, соответствующим всем необходимым стандартам.
+        Вся наша продукция ТМ PRAVT имеет наличие сертификатов.
+        Изготовление запчастей - это полное соответствие конвейерным элементам
+        с сохранением их конструктивных особенностей и заводской геометрии.!</span>
+                   <img src="Images/about.svg" alt="About the car service"/>
+                </div>
+            </section>
+        </main>
+    </div>
+</div>
+<script src="script.js"></script>
 </body>
 </html>
