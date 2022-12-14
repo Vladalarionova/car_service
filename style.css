@@ -2,62 +2,104 @@
 
 
 body {
-    background-color: #fcf8dd;
+    background-color: #f6f6f6;
     font-family: 'Roboto', sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
 }
+
+
+.outer-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 .logo {
     width: 187px;
-    height: 141px;
+    height: 170px;
 }
 .header_contacts {
-    padding: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+.header_contacts_contact-info {
+    width: 100%;
     display: flex;
     justify-content: space-between;
 }
-.header_contacts_contact-info {
-    margin-left: 20px;
-    list-style-type: none;
+
+.header-item {
     display: flex;
-    width: 100%;
-    flex-direction: row;
-    align-items: center;
+    flex-direction: column;
 }
 
-.header_contacts_description {
+.outer-container {
     display: flex;
     align-items: center;
 }
 
-.header-wrapper {
+.inner-container {
     display: flex;
+    flex-direction: column;
+    margin-left: 40px;
     width: 100%;
-    justify-content: flex-end;
 }
 
-.header-item + .header-item {
-    margin-left: 20px;
-}
-
-.navbar {
+.header-menu {
     display: flex;
     flex-direction: column;
     flex: 1;
+    margin-left: 65px;
+    width: 100%;
 }
 
-.navbar-description {
+.contact-style {
+    font-weight: 600;
+}
+
+.days {
+    font-weight: 600;
+}
+
+.contact-style {
+    margin-top: 17px;
+}
+
+.image-style {
     display: flex;
-    flex: 1;
+    align-items: center;
+    width: 30%;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.nav-item {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 27px;
 }
 
 .header_nav-menu {
     display: flex;
-    flex:1;
+    justify-content: space-between;
+    margin-top: 30px;
 }
 
-.header_nav-menu>ul {
-    justify-content: space-between;
-    padding: 0;
-    list-style-type: none;
+.phone {
+    text-decoration: none;
+}
+
+.desc {
+    display: block;
+}
+
+.main-description {
     display: flex;
-    flex: 1;
+    align-items: center;
 }
