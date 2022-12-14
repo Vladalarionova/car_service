@@ -8,7 +8,9 @@ body {
     margin-right: 20px;
 }
 
-.inner-wrapper {
+
+.outer-wrapper {
+    max-width: 1850px;
     margin: 0 auto;
 }
 
@@ -31,7 +33,7 @@ body {
 }
 
 .item-margin {
-    margin-left: 140px;
+    margin-left: 130px;
 }
 
 .outer-container {
@@ -89,6 +91,11 @@ body {
     text-decoration: none;
 }
 
+.desc {
+    display: block;
+}
+
 .main-description {
     display: flex;
+    align-items: center;
 }
