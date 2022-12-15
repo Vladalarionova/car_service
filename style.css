@@ -37,6 +37,7 @@ body {
     flex-direction: row;
     align-items: center;
     z-index: 100;
+    margin-left: 30px;
 }
 
 .header_contacts_contact-info {
@@ -54,7 +55,7 @@ body {
     right: 0;
     bottom: 0;
     background-image: url("Images/repair.jpg");
-    opacity: 0.2;
+    opacity: 0.1;
     z-index: 0;
 }
 
@@ -97,6 +98,7 @@ body {
     display: flex;
     align-items: center;
     z-index: 100;
+    margin-left: 50px;
 }
 
 .icon {
@@ -134,10 +136,6 @@ body {
     margin-top: 50px;
 }
 
-.header_contacts_description {
-    padding-right: 200px;
-}
-
 .item-margin {
     margin-left: 40px;
 }
@@ -148,21 +146,19 @@ body {
     font-size: 25px;
 }
 
-.list-repair {
-    list-style-type: none;
-}
-
 .list-repair:before {
     content: "";
     display: inline-block;
-    width: 40px;
+    width: 32px;
     height: 30px;
     background-image: url("Images/car_repair.svg");
     margin: 0 10px 0 10px;
+    background-size: contain;
 }
 
 .quality-desc {
     display: flex;
+    align-items: center;
 }
 
 .quality {
@@ -171,8 +167,52 @@ body {
 
 .quality-desc-1 {
     width: 50%;
-=}
+    display: flex;
+    flex-direction: column;
+}
 
-.quality-desc-2 {
-    width: 50%;
+.quality-text-1 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.quality-text-2 {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.quality-text-3 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.list-repair-flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.list-repair-flex-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.list-repair-flex-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.item-margin-list {
+    margin-bottom: 50px;
+}
+
+.list-repair {
+    font-size: 40px;
+}
+
+.quality-margin {
+    margin-bottom: 40px;
+}
+
+.header {
+    font-size: 40px;
 }
