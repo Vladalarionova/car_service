@@ -129,7 +129,6 @@ body {
     align-items: center;
     justify-content: space-between;
     margin: 0 auto;
-    padding: 0 25px;
 }
 
 .about {
@@ -159,16 +158,7 @@ body {
 .quality-desc {
     display: flex;
     align-items: center;
-}
-
-.quality {
-    padding: 0 20px;
-}
-
-.quality-desc-1 {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
+    justify-content: space-around;
 }
 
 .quality-text-1 {
@@ -215,4 +205,28 @@ body {
 
 .header {
     font-size: 40px;
+}
+
+.quality-desc-1 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    background-color: #f3ad53;
+}
+
+.quality-desc-2 {
+    display: flex;
+    align-items: center;
+    background-color: #e56998;
+}
+
+.car-service-icon {
+    width: 200px;
+    height: 200px;
+}
+
+.repair-text-2 {
+    font-size: 40px;
+    text-align: center;
+    text-align: center;
 }
